@@ -1,0 +1,1126 @@
+
+@media(max-width: 1441px){
+
+  .BlogLeftSide img{
+    width: 461px;
+    height: 210px;
+    display: flex;
+    cursor: pointer;
+    margin: 30px;
+    position: relative;
+    top: 70px;
+    left: -150px;
+    }
+.BlogRightSide{
+  position: relative;
+  left: -50px;
+  padding: 200px 150px;
+  }
+  .ingText{
+    position: relative;
+    left: -100px;
+  }
+ .wavesLogo h3{
+font-size: 30px;
+  }
+  .teamSwiper-slide{
+    width: 293px;
+    height: 234px;
+  }
+  .footerMapBox{
+    position: relative;
+    left: -50px;
+  }
+}
+@media(max-width: 1024px){
+  .Logo{
+    position: relative;
+    left: -100px;
+  }
+  .nav{
+    position: relative;
+    left: -80px;
+  }
+  .additional button{
+    position: relative;
+    left: -50px;
+  }
+  .BlogLeftSide img{
+    width: 361px;
+    height: 110px;
+    display: flex;
+    cursor: pointer;
+    margin: 30px;
+    position: relative;
+    top: 70px;
+    left: -250px;
+    }
+    .dog1Png{
+      width: 246px;
+      height: 214px;
+    }
+    .dog2Png{
+      width: 313px;
+      height: 416px;
+      display: flex;
+    }
+    .dog3Png{
+      width: 247px;
+      height: 214px;
+    }
+    .dog4Png{
+      width: 325px  ;
+      height: 84px;
+    }
+    .dog5Png{
+      width: 694px;
+      height: 321px;
+      display: flex;
+    }
+    .dog6Png{
+      width: 247px;
+      height: 23px;
+      display: flex;
+    }
+    .dog7Png{
+      width: 330px;
+      height: 108px;
+      display: flex;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa';
+}
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #1A8875; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #1A8875; 
+   
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #1A8875; 
+  }
+
+.wrap{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #1A8875;
+    padding: 50px 150px 30px;
+    color: #fff;
+}
+.home .header{
+width: 100%;
+height: 10vh;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.nav ul{
+    display: flex;
+}
+.nav ul li{
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+    font-weight: 300;
+}
+.additional button{
+background-color: transparent;
+border: 1px solid #fff;
+border-top-left-radius: 10px;
+border-bottom-right-radius: 10px;
+color: #fff;
+padding: 15px 25px;
+border-top-right-radius: 5px;
+border-bottom-left-radius: 5px;
+}
+.additional button i{
+    position: relative;
+    left: 5px;
+}
+.additional button:hover{
+    background-color: #fff;
+    color:#1A8875 ;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.slide1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.swiper .leftSide{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 200px;
+}
+.swiper .leftSide p{
+    margin: 30px 0;
+}
+.swiper button{
+    background-color: #ffff;
+border: 1px solid #fff;
+border-top-left-radius: 10px;
+border-bottom-right-radius: 10px;
+color: #fff;
+padding: 15px 25px;
+border-top-right-radius: 5px;
+border-bottom-left-radius: 5px;
+transition: 0.1s;
+cursor: pointer;
+color: #333;
+}
+.rightSide{
+width: 50%;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+position: relative;
+left: 40%;
+}
+.rightSide img{
+width: 400px;
+position: relative;
+top: 30px;
+}
+.about{
+    width: 100%;
+    min-height: 220vh;
+    background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+}
+      .swiper {
+        width: 100%;
+        display: flex;
+        height: 100%;
+        align-items: center;
+        display: flex;
+        position: relative;
+        top: 30px;
+      }
+      .swiper-slide {
+        font-size: 18px;
+        display: flex;
+        color: #fff;
+        background-color: #1A8875;
+      }
+      .infBox{
+        width: 100%;
+        height: 400px;
+        background-color: #fff;
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        top: 200px;
+      }
+      .infBox img{
+        display: flex;
+width: 600px;
+height: 390px;
+      }
+      .ingLog1{
+            color:#1A8875 ;
+      }
+      .infTextBox{
+        width: 300px;
+        position: relative;
+      }
+      .about svg{
+display: flex;
+position: relative;
+top: 190px;
+      }
+      .wavesBox{
+        width: 100%;
+        height: 90vh;
+        background-color: #1A8875;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        position: relative;
+        top: 190px;
+      }
+      .wavesLogo{
+        color: rgba(51, 51, 51, 1);
+      }
+     .wavesLogo{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        color: #fff;
+     }
+     .wavesLogo h3{
+      font-size: 50px;
+     }
+     .wavesLogo1{
+        color: 
+        rgba(51, 51, 51, 1);
+     }
+     .wavesItemsBox{
+        width: 100%;
+        height: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        position: relative;
+        top: 100px;
+        text-align: center;
+     }
+.WavesItem{
+  width: 200px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+.WavesItem img{
+  width: 70px;
+  height: 70px;
+  display: flex;
+}
+.videoBlog{
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.BlogRightSide{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 200px 150px;
+}
+.BlogLogo{
+  width: 85%;
+  justify-content: space-around;
+  display: flex;
+}
+.BlogLogo1{
+  color: #1A8875;
+}
+.BlogButton{
+  width: 50%;
+  height: 200px;
+  display: flex;
+  position: relative;
+  top: 60px;
+  align-items: center;
+  justify-content: space-around;
+}
+.BlogButton svg{
+  cursor: pointer;
+}
+.BlogButton p{
+  position: relative;
+  top: 8px;
+}
+
+.BlogLeftSide{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 200px 150px;
+}
+.BlogLeftSide img{
+width: 561px;
+height: 310px;
+display: flex;
+cursor: pointer;
+margin: 30px;
+position: relative;
+top: 70px;
+}
+.Gelary{
+  width: 100%;
+  min-height: 140vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #1A8875;
+  justify-content: space-around;
+  padding: 0px 100px;
+}
+.gelaryLog{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin: 20px;
+}
+.gelaryLog1{
+  color: 
+  rgba(51, 51, 51, 1);
+}
+.GelaryPhotos{
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 180px;
+  position: relative;
+  top: -70px;
+}
+.GalPhBox1{
+  width: 513px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.dog1Box{
+  width: 100%;
+  height: 314px;
+  display: flex;
+  justify-content: flex-end;
+}
+.dog1Png{
+  width: 346px;
+  height: 314px;
+}
+.dog2Png{
+  width: 413px;
+  height: 516px;
+  display: flex;
+}
+.dog2Box{
+  width: 100%;
+  height: 516px;
+  display: flex;
+  justify-content: flex-end;
+}
+.GalPhBox2{
+  width: 800px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.Dogs3Box{
+  width: 100%;
+  height: 314px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+.dog3Png{
+  width: 347px;
+  height: 314px;
+}
+.dog4Png{
+  width: 425px  ;
+  height: 184px;
+}
+.dog5Png{
+  width: 794px;
+  height: 321px;
+  display: flex;
+}
+.Dogs4Box{
+width: 100%;
+height: 323px;
+display: flex;
+justify-content: space-around;
+}
+.dog6Png{
+  width: 347px;
+  height: 323px;
+  display: flex;
+}
+.dog7Png{
+  width: 430px;
+  height: 208px;
+  display: flex;
+}
+.payBox{
+  width: 100%;
+  min-height: 100vh;
+  background-color: #fff;
+  position: fixed;
+  display: none;
+  z-index: 1000;
+  flex-direction: column;
+}
+.payHeader{
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 50px;
+}
+.payHeader svg{
+  display: flex;
+  width: 324px;
+  height: 79px;
+  position: relative;
+}
+.payExit{
+width: 65px;
+height: 65px;
+display: flex;
+color: #fff;
+position: relative;
+background-color: black;
+border-radius: 20px;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+}
+.payExit i{
+font-size: 50px;
+}
+.payInf{
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  position: relative;
+  padding: 100px 50px;
+  justify-content: space-between;
+}
+.payTextBox{
+  width: 50%;
+  height: 80%;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.payTextBox h2{
+  color: #1A8875;
+  font-size: 55px;
+}
+.payQbox{
+  width: 50%;
+  height: 80%;
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+}
+.payQbox svg{
+  width: 393px;
+  height: 393px;
+  display: flex;
+  cursor: zoom-in;
+}
+.payButtons{
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: -250px;
+  padding: 0px 50px;
+}
+.payButtons button{
+  width: 396px;
+  height: 89px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #fff;
+  border: solid 2px #1A8875;
+  border-radius: 10px;
+  color: #1A8875;
+  font-size:20px;
+  padding: 0px 30px;
+}
+.payButtons svg{
+  width: 42px;
+  height: 42px;
+  display: flex;
+  margin: 20px;
+}
+.payCardBox{
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  display: none;
+  position: fixed;
+  z-index: 2000;
+  flex-direction: column;
+}
+.payCardHeader{
+  width: 100%;
+  height: 150px;
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+  padding: 0px 50px;
+  justify-content: space-between;
+}
+.payCardHeader svg{
+  width: 324px;
+height: 78.86px;
+}
+.payCardExit{
+  width: 65px;
+  height: 65px;
+  display: flex;
+  color: #fff;
+  position: relative;
+  background-color: black;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  }
+  .payCardExit i{
+  font-size: 50px;
+  }
+  .PayCardboxInfo{
+    width: 100%;
+    height: 85vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+  }
+  .payCardInp{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px;
+  }
+  .payCardInpBox{
+    width: 100%;
+    height: 100px;
+    color: #1A8875;
+  }
+  .payCardInpBox input{
+width: 324px;
+height: 64px;
+border-radius: 10px;
+position: relative;
+top: -18px;
+border: 2px solid #1A8875;
+font-weight: 500;
+font-size: 31px;
+  }
+ 
+  .cardInputsBox{
+    width: 324px;
+    height: 64px;
+    border-radius: 10px;
+    position: relative;
+    border: 2px solid #1A8875;
+    display: flex;
+  }
+  .inpBox{
+    width: 324px;
+height: 64px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+position: relative;
+padding: 10px 0px;
+  }
+  #CardInp1{
+    width: 50%;
+    height: 35px;
+    border:0;
+    display: flex;
+    position: relative;
+top: 0px;
+border-right: 2px solid #1A8875;
+border-radius: 0px;
+outline: none;
+padding: 0 10px;
+  }
+  #CardInp2{
+    width: 50%;
+    height: 35px;
+    display: flex;
+    position: relative;
+top: 0.1px;
+border: none;
+outline: none;
+padding: 0 10px;
+  }
+.inp1Box{
+  width: 50%;
+  height: 104px;
+  display: flex;
+  flex-direction: column;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+.payCardLog{
+  width: 40%;
+  height: 20px;
+  display:flex ;
+  justify-content: space-between;
+}
+.payCardImgBox{
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.cardImgBox{
+  width: 560.54px;
+height: 305.17px;
+display: flex;
+background-color: none;
+background-image:url(./img/CardDog.png) ;
+box-shadow: 1px 1px 3px #000;
+border-radius: 24px;
+z-index:10;
+flex-direction: column;
+backdrop-filter: blur(20px);
+background-position: center;
+border: none;
+}
+.cardBox{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+ 
+}
+.cardOval1{
+  width: 205.71px;
+  height: 209.63px;
+background: #4A9B8D;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+transform: matrix(0.62, -0.79, 0.83, 0.56, 0, 0);
+border-radius: 50%;
+display: flex;
+position: relative;
+top: 150px;
+left: 100px;
+}
+.cardOval2{
+  width: 325.78px;
+height: 332.99px;
+background: #4A9B8D;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+transform: matrix(0.62, -0.79, 0.83, 0.56, 0, 0);
+border-radius: 50%;
+display: flex;
+position: relative;
+top: -100px;
+left: -200px;
+}
+.headerLogo{
+  width: 204.43px;
+height: 75.85px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.headerLogo p{
+position: relative;
+top: 5px;
+}
+.cardHeader{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+  align-items: center;
+}
+.MasterLogo{
+  width: 81.43px;
+height: 75.85px;
+display: flex;
+
+}
+.cardImgNumberBox{
+  width: 70%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding: 0px 30px;
+  justify-content: space-around;
+  font-family: 'Comfortaa';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 36px;
+}
+.cardImgNumberBox span{
+width: 100%;
+height: 100px;
+display: flex;
+}
+.cardCvvBox{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  padding: 0px 30px;
+  align-items: center;
+}
+.dateBox{
+  width: 100px;
+  height:50px;
+  position: relative;
+  top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.boxMM{
+  position: relative;
+  top: 10px;
+}
+.cvvBox{
+  width: 100px;
+  height:50px;
+  position: relative;
+  top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.payInpLog{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-family: 'Comfortaa';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 22px;
+color: #1A8875;
+border: none;
+}
+.payInputBox{
+  width: 324px;
+height: 74px;
+border: 2px solid #4A9B8D;
+border-radius: 10px;
+display: flex;
+padding: 0px 10px;
+align-items: center;
+}
+.payInputBox input{
+  width: 30%;
+  height: 50px;
+  display: flex;
+  border: none;
+  outline: none;
+  padding: 0px 10px;
+}
+.payInputBox section{
+  width: 30%;
+  height: 100%;
+  display: flex;
+  border: none;
+  outline: none;
+  padding: 0px 10px;
+   align-items: center;
+}
+#payInp1{
+  width: 70%;
+  border-right: 2px solid #1A8875;
+}
+.payCardImgBox button{
+width: 396px;
+height: 89px;
+background-color:rgba(47, 109, 98, 1);
+border-radius: 10px;
+justify-content: center;
+align-items: center;
+color: #fff;
+cursor: pointer;
+position: relative;
+top: -30px;
+border: 2px solid #2F6D62;
+box-shadow: 0px 3px 27px rgba(104, 234, 211, 0.4);
+}
+.cardBut:hover{
+  background-color: #fff;
+  color: rgba(47, 109, 98, 1);
+}
+.downCardSide{
+  width: 100%;
+  height: 30px;
+  display: flex;
+  background-color: #000;
+  position: relative;
+}
+.teamBox{
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.teamBoxHeader{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  color: #000;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 200px;
+  position: relative;
+  top: 100px;
+}
+.teamBoxHeader h3{
+  line-height: 57px;
+  font-weight: 600;
+  font-size: 48px;
+}
+.teamBoxHeader p{
+  line-height: 24px;
+  font-weight: 300;
+  font-size: 27px;
+}
+.teamLogItem{
+  color: rgba(74, 155, 141, 1);
+}
+.teamLogo{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.teamInfBox{
+  width: 50%;
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: #eee;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.swiper-container {
+  height: 500px;
+  display: flex;
+  margin: 60px;
+}
+
+
+.teamSwiper-slide {
+  width: 293px;
+height: 434px;
+display: flex;
+margin: 50px;
+  overflow: hidden;
+  background-position: top;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.swiper-wrapper {
+  -webkit-transition-timing-function:linear!important; 
+  -o-transition-timing-function:linear!important;
+  transition-timing-function:linear!important; 
+}
+.tSl1{
+  background-image: url(./img/women1.png);
+}
+.tSl2{
+  background-image: url(./img/woman2.png);;
+}
+.tSl3{
+  background-image: url(./img/woman3.png);
+}
+.tSl4{
+  background-image: url(./img/man.png);
+}
+.tSl5{
+  background-image: url(./img/man2.png);
+}
+.tSl1:hover{
+  background-image: url(./img/woman1Color.png);
+  cursor: pointer;
+}
+.tSl2:hover{
+  background-image: url(./img/woman2Color.png);
+  cursor: pointer;
+}
+.tSl3:hover{
+  background-image: url(./img/woman3Color.png);
+  cursor: pointer;
+}
+.tSl4:hover{
+  background-image: url(./img/manColor.png);
+  cursor: pointer;
+}
+.tSl5:hover{
+  background-image: url(./img/man2Color.png);
+  cursor: pointer;
+}
+
+.footer{
+width: 100%;
+min-height: 90vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:rgba(49, 51, 64, 1);
+flex-direction: column;
+padding: 0px 100px;
+}
+.footerInf{
+  width: 100%;
+  height: 600px;
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+}
+.footerLocBox{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: flex-start;
+}
+.footerLocBox h2{
+  font-family: 'Comfortaa';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 45px;
+}
+.footerItem{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.footerItem p{
+  display: flex;
+  position: relative;
+  left: 10px;
+  top: 5px;
+  font-family: 'Comfortaa';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 22px;
+}
+.footerMapBox{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: flex-start;
+  padding: 0px 100px;
+}
+.footerMapBox h2{
+  font-family: 'Comfortaa';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 45px;
+}
+.footerMap{
+  width: 600px;
+height: 344px;
+display: flex;
+position: relative;
+}
+.footer hr{
+  width: 100%;
+  height: 4px;
+  background: #4A9B8D;
+border-radius: 2px;
+}
+.footerentBox{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+.footerentBox h4{
+  font-family: 'Comfortaa';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 22px;
+letter-spacing: 0.04em;
+}
+.soshial{
+  width:100px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.instBox{
+  width: 41px;
+height: 41px;
+display: flex;
+background-color: #fff;
+border-radius: 50%;
+justify-content: center;
+align-items: center;
+}
+.instBox i{
+  font-size: 25px;
+  display: flex;
+  color: #000;
+  cursor: pointer;
+}
+.telegram{
+  font-size: 41px;
+  color:#fff;
+  cursor: pointer;
+}
